@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=PdfCraft
+GenericName=Editor de PDF
+Comment=Editor y lector de PDF local (sin nube)
+Exec=__EXEC__ %F
+Icon=pdfcraft
+Terminal=false
+Categories=Office;Graphics;Viewer;
+MimeType=application/pdf;
+StartupNotify=true

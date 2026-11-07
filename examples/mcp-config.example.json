@@ -1,0 +1,15 @@
+{
+  "//": "Ejemplo de entrada para la sección mcpServers de ~/.claude.json",
+  "//roots": "Ajusta los automation roots a un directorio de trabajo ACOTADO. Más amplio = más expuesto.",
+  "mcpServers": {
+    "pdfcraft": {
+      "command": "pdfcraft-cli",
+      "args": [
+        "mcp",
+        "--automation-read-root", "/ruta/a/tu/directorio-de-trabajo",
+        "--automation-write-root", "/ruta/a/tu/directorio-de-trabajo",
+        "--compact"
+      ]
+    }
+  }
+}

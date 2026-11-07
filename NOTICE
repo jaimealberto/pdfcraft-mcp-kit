@@ -1,0 +1,35 @@
+pdfcraft-mcp-kit
+================
+
+PROYECTO NO OFICIAL / UNOFFICIAL PROJECT
+
+Este repositorio es un kit de integración independiente. NO está afiliado,
+patrocinado ni avalado por los autores de pdfcraft.
+
+This repository is an independent integration kit. It is NOT affiliated with,
+sponsored by, or endorsed by the authors of pdfcraft.
+
+----------------------------------------------------------------------
+
+pdfcraft es obra de / pdfcraft is the work of:
+
+    storytold/pdfcraft
+    https://github.com/storytold/pdfcraft
+    Licencia / License: MIT OR Apache-2.0
+
+Este kit NO redistribuye el binario de pdfcraft. El instalador (install.sh)
+descarga los artefactos oficiales desde las GitHub Releases del proyecto
+upstream y verifica su integridad (SHA256, y firma GPG opcional) antes de
+instalarlos.
+
+This kit does NOT redistribute the pdfcraft binary. The installer (install.sh)
+downloads the official artifacts from the upstream project's GitHub Releases
+and verifies their integrity (SHA256, and optional GPG signature) before
+installing them.
+
+----------------------------------------------------------------------
+
+Lo que SÍ cubre la licencia MIT de este repo (ver LICENSE):
+What this repo's MIT license DOES cover (see LICENSE):
+
+    install.sh, README.md, README.en.md, examples/*
